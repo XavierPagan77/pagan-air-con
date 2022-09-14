@@ -1,0 +1,213 @@
+ body{
+   font-family: "Montserrat-Bold";
+   text-align: center;
+   color: #ffffff;
+   color:  rgba(9,9,121,1) 11%;;
+ }
+ 
+ h1,h2,h3{
+   color: rgba(9,9,121,1) 11%;
+   text-align: center;
+   font-size: 1.5rem;
+ }
+
+i{
+   color:white
+}
+ .navbar{
+    background: linear-gradient(180deg, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 100%);
+    padding: 10px 150px 0 0;
+    height: 60px;
+ }
+
+ .nav-link{
+   color: #ffffff;
+   font-weight: bolder;
+ }
+
+ /* Section-title */
+ .pagan-img{
+    width: 400px;
+    padding-top: 3px;
+    padding-left: 100px;
+ }
+
+ .segunda-barra{
+   border: 2px solid rgba(9,9,121,1) ;
+   height: 60px;
+   text-align: left;    
+   padding-top: 10px;
+   padding-left: 100px;
+  }
+
+  .tech-logo{
+   width: 120px;
+   border: 2px solid rgba(9,9,121,1) ;
+   border-radius: 18px;
+   position: absolute;
+   z-index: 1;
+   top:27px;
+   left:557px;
+
+  }
+
+ /* Section-services */
+ .cars-logo{
+    width: 275px;
+    margin-left: 8px;
+ }
+
+ #medio{
+   background-color:#00468b;
+   height: 250px;
+ }
+
+ .col-h3-services{
+   margin-top: 40px;
+   text-align: center; 
+ }
+
+ .boton{
+   width: 275px;
+   position: absolute;
+   top:400px;
+   left:175px;
+   border-radius: 100%;
+   border:5px solid white; 
+ }
+
+.botellas{
+  position: relative;
+  width: 250px;
+  bottom: 70px;
+  left:50px;
+     
+}
+.down-arrow{
+  position: absolute;
+  bottom: 15px;
+  left:590px;
+}
+
+/* Section-intermedio */
+#intermedio{
+   background-color:#128fc8;
+}
+.acccumulator{
+   width: 230px;
+   border-radius: 100%;
+   transform: rotate(340deg);
+   padding:0;
+}
+
+/* Section-footer */
+#footer{
+   color: darkgray;
+   padding-top: 10px;
+   height: 100px;
+}
+
+#footer{
+   color: #00468b;
+}
+
+
+
+/* <!---------------------------------------------Media----------------------------------------> */
+ @media(max-width: 1240px){
+body{
+   text-align: center;
+   
+}
+
+   /* Section-title */
+   h1,h2,h3{
+      color: rgba(9,9,121,1) 11%;
+      text-align: center;
+      font-size: 17px;}
+
+ .pagan-img{
+   padding: 0;
+   width: 400px;
+   position: absolute;
+   top:10px;
+   left:0px;
+   }
+
+.navbar{
+   background: linear-gradient(180deg, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 100%);
+   padding: 10px 20px 0 0;
+   height: 60px;
+   text-align: right;
+   }
+
+.nav-link{
+   position: relative;
+   z-index: 1;
+  }
+
+.nav-link{
+  color: #3f09b4;
+}
+
+/* Section-services */
+.cars-logo{
+   width: 285px;
+   position: absolute;
+   top:75px;
+   left:25px;
+  
+}
+.tech-logo{
+   width: 80px;
+   border: 2px solid rgba(9,9,121,1) ;
+   border-radius: 18px;
+   position: absolute;
+   top:25px;
+   left:43%;
+ }
+
+ .down-arrow{
+   position: absolute;
+   bottom: 1050px;
+   left:0px;
+   right: 0;
+   background-color:red ;
+}
+
+ .boton{
+   width: 100px;
+   position: static;
+   margin-top:10px;
+   border-radius: 100%;
+   border:5px solid white; 
+ }
+
+ .col-h3-services{
+   margin-top: 5px;
+   text-align: center; 
+   }
+
+   .botellas{
+      padding: 0;
+     
+      
+      width: 100px;
+      
+   }
+
+   #intermedio{
+      padding-top: 50px;
+   }
+
+   .acccumulator{
+      width: 100px;
+      border-radius: 100%;
+      transform: rotate(340deg);
+      margin-right: 110px;
+      }
+
+     #footer{
+      background-color: #00468b;
+     }
+}
