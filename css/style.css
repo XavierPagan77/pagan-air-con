@@ -169,10 +169,10 @@ body{
 
  .down-arrow{
    position: absolute;
-   bottom: 700px;
+   bottom: 800px;
    left:0px;
    right: 0;
-   background-color:red ;
+  
 }
 
  .boton{
